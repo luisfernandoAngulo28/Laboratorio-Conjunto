@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/04/23 17:24:52.599,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/04/23 17:24:53.049,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\File2.cpp</Transaction>
+    <Transaction>2023/04/23 17:25:44.277,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\File2.cpp=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\File2.cpp</Transaction>
+    <Transaction>2023/04/23 17:25:47.593,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Project1PCH1.h=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/04/23 17:25:51.054,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Project1.cbproj=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2023/04/23 17:29:03.732,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Unit1.cpp</Transaction>
+    <Transaction>2023/04/23 17:29:23.104,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\ULista_punt.h=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Unit1.h</Transaction>
+    <Transaction>2023/04/23 17:29:23.104,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\ULista_punt.cpp=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Unit1.cpp</Transaction>
+    <Transaction>2023/04/23 17:48:45.866,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Unit1.cpp</Transaction>
+    <Transaction>2023/04/23 17:49:38.281,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Unit1.cpp</Transaction>
+    <Transaction>2023/04/23 17:49:58.148,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Conjunto_Lista.cpp=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Unit1.cpp</Transaction>
+    <Transaction>2023/04/23 17:49:58.148,C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Conjunto_Lista.h=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\LaboratorioConjunto\Unit1.h</Transaction>
+  </Transactions>
+</BorlandProject>

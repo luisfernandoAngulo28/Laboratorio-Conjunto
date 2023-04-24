@@ -1,0 +1,108 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "ULista_punt.h"
+//---------------------------------------------------------------------------
+ListaPtr::ListaPtr() {
+	longi = 0;
+	elem = NULL;
+}
+
+//elem->2->5->null
+
+NodoL* ListaPtr::fin() {
+	if (vacia()) {
+		cout << "LISTA VACIA\n";
+	}
+	else {
+		NodoL* ptrFin{}; // Inicializar
+		NodoL* x = elem;
+		while (x != NULL) {
+			ptrFin = x;
+			x = x->sig;
+		}
+		return ptrFin;
+	}
+}
+//elem->2->5->null
+NodoL* ListaPtr::primero() {
+		return elem;
+}
+							 //2
+NodoL* ListaPtr::siguiente(NodoL* p) {
+	if (this->vacia())
+		return NULL;
+	else
+		return p->sig;   //5
+}
+   //elem->2->5->null         5
+//	      ant x
+NodoL* ListaPtr::anterior(NodoL* p) {
+	if (this->vacia()) {
+		cout << "LISTA VACIA\n";
+	}
+	else if (p == primero()) {
+		cout << "DIRECCION INCORRECTA\n";
+	}
+	else {
+		NodoL* x = elem;
+		NodoL* ant = NULL;
+		while (x != NULL) {
+			if (x == p) {  //5==5
+				return ant;    //2
+			}
+			ant = x;
+			x = x->sig;
+		}
+	}
+}
+					 //   5
+int ListaPtr::recupera(NodoL* p) {
+	if (this->vacia())
+		return 0;
+	else
+		return p->elemento;
+}
+
+void ListaPtr::inserta(NodoL* p, int e) {
+	NodoL* x = new NodoL;
+	if (x != NULL) {
+		x->elemento = e;
+		x->sig = NULL;
+		if (vacia()) {//elem->null
+			elem = x;
+			longi = 1;
+	   // elem->[5|]->null
+		//       x
+		}
+		else {
+			longi++;
+			if (p == primero()) {
+				x->sig = p;
+				elem = x;
+			}
+			else {
+				NodoL* ant = anterior(p);
+				ant->sig = x;
+				x->sig = p;
+			}
+		}
+	}
+}
+
+string ListaPtr::toStr() {
+	string r = "{ ";
+	NodoL* x = elem;
+	while (x != NULL) {
+		r += to_string(x->elemento);
+		if (x->sig != NULL)
+			r += ",";
+		x = x->sig;
+	}
+	r = r + " }";
+	return r;
+}
+
+
+#pragma package(smart_init)
